@@ -1,6 +1,7 @@
 # Data files (large, reproducible from scripts)
-data/
+data/*
 !data/.gitkeep
+!data/output/
 
 # R
 .Rhistory

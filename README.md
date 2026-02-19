@@ -29,12 +29,19 @@ Includes articles, books, and book chapters from 2000 onward.
 │   ├── 01_build_dh_corpus.R        # Phase 1: Build DH corpus from OpenAlex
 │   ├── 02_fetch_cited_works.R      # Phase 2: Retrieve country data for cited works
 │   └── 03_endogeneity_analysis.R   # Phase 3: Endogeneity, bridge scholars, trends
-├── data/                           # Generated data (gitignored, see below)
-├── output/                         # Figures and summary tables
+├── data/                           # Generated data (gitignored except data/output/)
+│   └── output/                     # ⬇ Pre-computed results (tracked in git)
+│       ├── 00_retrieval_date.txt   #   Timestamp of the OpenAlex data retrieval
+│       ├── 02_dh_corpus.csv        #   DH corpus metadata (flat CSV)
+│       ├── 05_country_endogeneity.csv  # Country-level endogeneity metrics
+│       ├── 06_temporal_overall.csv     # Overall endogeneity trends over time
+│       ├── 07_temporal_by_country.csv  # Per-country temporal trends
+│       ├── 08_bridge_scholars.csv      # Scholars bridging citation communities
+│       └── 09_citation_flow_matrix.csv # Country-to-country citation flows
 ├── docs/
 │   ├── research_plan.md            # Detailed research plan
 │   └── dh_journals.csv             # DH journal list (Spinaci et al. 2022)
-├── .Renviron.example               # Template for API key configuration
+├── Renviron.example                # Template for API key configuration
 ├── .gitignore
 ├── CLAUDE.md                       # Instructions for Claude Code
 ├── LICENSE
@@ -91,7 +98,18 @@ Phase 2 supports checkpointing — if interrupted, re-running will resume from w
 
 ## Data availability
 
-The `data/` directory is gitignored because intermediate files are large and fully reproducible from the scripts. Final output tables are saved in `output/`.
+Most of `data/` is gitignored because intermediate files are large and fully reproducible from the scripts. However, **`data/output/`** is tracked so you can browse the final results without re-running the pipeline:
+
+| File | Description |
+|------|-------------|
+| `02_dh_corpus.csv` | Full DH corpus metadata (one row per work) |
+| `05_country_endogeneity.csv` | Country-level endogeneity rates and diversity metrics |
+| `06_temporal_overall.csv` | Overall endogeneity trends by year |
+| `07_temporal_by_country.csv` | Per-country endogeneity trends by year |
+| `08_bridge_scholars.csv` | Scholars with the most geographically diverse citation patterns |
+| `09_citation_flow_matrix.csv` | Country-to-country citation flow counts |
+
+Data retrieved from OpenAlex on 2026-02-19 (see `data/output/00_retrieval_date.txt`).
 
 OpenAlex data is [CC0 licensed](https://creativecommons.org/publicdomain/zero/1.0/).
 
