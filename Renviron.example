@@ -1,0 +1,8 @@
+# OpenAlex API configuration
+# Copy this file to .Renviron and fill in your credentials.
+# Get a free API key at: https://openalex.org/settings/api
+#
+# Then restart R so the variables are loaded.
+
+OPENALEX_API_KEY=your_key_here
+OPENALEX_EMAIL=your.email@example.com

@@ -1,0 +1,25 @@
+# Data files (large, reproducible from scripts)
+data/
+!data/.gitkeep
+
+# R
+.Rhistory
+.Rdata
+.RData
+.Ruserdata
+.Rproj.user/
+*.Rproj
+renv/library/
+renv/staging/
+renv/python/
+renv/sandbox/
+
+# Environment (contains API key)
+.Renviron
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Output (optional: uncomment to track final outputs)
+# output/
