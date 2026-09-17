@@ -301,7 +301,7 @@ OpenAlex data is [CC0 licensed](https://creativecommons.org/publicdomain/zero/1.
 
 ## Paper and talk
 
-[`eadh2026/`](eadh2026/) holds the EADH 2026 submission: `eadh2026.tex` (+ `.bib`, `.sty`, `img/`, `figures/` — compile with `pdflatex` → `biber` → `pdflatex` ×2), `talk_speaker_notes.md`, the slide deck `eadh2026_talk.pptx`, and `slides/build.py`, which regenerates the deck from `slides/template.pptx` and the three cropped figures in `slides/img/`.
+[`eadh2026/`](eadh2026/) holds the EADH 2026 submission: `eadh2026.tex` (+ `.bib`, `.sty`, `img/`, `figures/` — compile with `pdflatex` → `biber` → `pdflatex` ×2).
 
 ## References
 
@@ -309,6 +309,9 @@ OpenAlex data is [CC0 licensed](https://creativecommons.org/publicdomain/zero/1.
 - Priem, J., Piwowar, H., & Orr, R. (2022). OpenAlex: A fully-open index of scholarly works, authors, venues, institutions, and concepts.
 - Aria, M., Le, T., Cuccurullo, C., Belfiore, A., & Choe, J. (2024). openalexR: An R-Tool for Collecting Bibliometric Data from OpenAlex. *The R Journal*, 15(4), 167–180.
 - Weingart, S. B., Eichmann-Kalwara, N., Lincoln, M., et al. (2020–). *The Index of Digital Humanities Conferences*. Carnegie Mellon University. https://dh-abstracts.library.cmu.edu
+
+## AI disclaimer
+The whole workflow and code has been created with the assistance of Claude Code. The full pipeline is auditable and reproducible, independently of any LLM use.
 
 ## License
 

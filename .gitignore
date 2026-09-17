@@ -89,9 +89,10 @@ eadh2026/*.out
 eadh2026/*.run.xml
 eadh2026/*.synctex.gz
 eadh2026/eadh2026_talk_preview.pdf
-eadh2026/slides/unpacked/
-eadh2026/slides/render/
-eadh2026/slides/notes_template.xml
+eadh2026/eadh2026_talk.pptx
+eadh2026/slides/
+eadh2026/figures/
+eadh2026/talk_speaker_notes.md
 
 # --- credentials -----------------------------------------------------------
 .Renviron
