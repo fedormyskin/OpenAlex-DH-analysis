@@ -1,0 +1,12 @@
+work_type_label,n_works,n_no_full_text,n_ft_no_refs,n_with_refs,pct_no_full_text,pct_with_refs
+paper,3403,1834,495,1074,53.9,31.6
+poster / demo / art installation,1823,173,525,1125,9.5,61.7
+"paper, specified ""short paper""",1178,131,264,783,11.1,66.5
+"paper, specified ""long paper""",991,85,115,791,8.6,79.8
+panel / roundtable,451,152,133,166,33.7,36.8
+workshop / tutorial,350,80,144,126,22.9,36
+multipaper session,282,223,48,11,79.1,3.9
+keynote / plenary,115,71,42,2,61.7,1.7
+lightning talk,114,18,96,0,15.8,0
+NA,93,0,42,51,0,54.8
+moderated discussion / birds of a feather (BoF),23,6,17,0,26.1,0

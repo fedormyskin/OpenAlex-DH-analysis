@@ -1,0 +1,10 @@
+Journals not found in OpenAlex — generated 2026-02-20 09:25:58.873405
+
+ID   Title                                                    E-ISSN      P-ISSN    
+-------------------------------------------------------------------------------------
+6    Journal of Digital Humanities                            2165-6673   —       
+8    Journal of Digital Archives and Digital Humanities       2616-5732   —       
+20   Korean Journal of Digital Humanities                     3058-311X   —       
+21   Journal of Computational Literary Studies                2940-1348   —       
+24   Zeitschrift für digitale Geisteswissenschaften          2510-1358   —       
+46   J. of Interactive Technology and Pedagogy                2166-6245   —       

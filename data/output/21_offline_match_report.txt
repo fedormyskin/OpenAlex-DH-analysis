@@ -1,0 +1,10 @@
+=== 21_match_references_duckdb.R report ===
+Generated: 2026-06-28 14:17:59.036016
+References in:        43624
+  ACCEPTED:           11645 (26.7%)
+    via DOI:          2096
+    via exact title:  8356
+    via fuzzy title:  1193
+  REVIEW (0.85-0.93): 3046
+  BAD TITLE:          2317
+  No match:           26616

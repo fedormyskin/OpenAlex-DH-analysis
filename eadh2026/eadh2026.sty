@@ -1,0 +1,172 @@
+%
+% This is the LaTeX style file for EADH2026.
+%
+
+%===============================================================
+% PACKAGES
+\RequirePackage[paperheight=24cm,paperwidth=17cm,margin=2cm]{geometry}
+\RequirePackage{booktabs} 
+\RequirePackage[font=small]{caption} 
+\RequirePackage{subcaption}
+\RequirePackage{amsfonts} 
+\RequirePackage[utf8]{inputenc}
+\RequirePackage{graphicx}
+\RequirePackage[all]{nowidow}
+\RequirePackage[english]{babel}
+\RequirePackage{tikz}
+\usetikzlibrary{er,positioning,bayesnet}
+\RequirePackage{multicol}
+\RequirePackage{algpseudocode,algorithm,algorithmicx}
+\RequirePackage{verse}
+\RequirePackage{hyperref}
+\RequirePackage[inline]{enumitem}
+\RequirePackage{todonotes}
+\RequirePackage{tablefootnote}
+\RequirePackage{dirtytalk}
+\RequirePackage{float}
+\RequirePackage{yfonts}
+\RequirePackage[T1]{fontenc}
+\RequirePackage{titlesec}
+\RequirePackage{fancyhdr,lipsum}
+\RequirePackage{csquotes}
+\RequirePackage{authblk}
+\RequirePackage{orcidlink}
+\usetikzlibrary{calc}
+%\RequirePackage{fontspec}
+%\setmainfont{NotoSerif.ttf}[Path=fonts/]
+%\setsansfont{NotoSans.ttf}[Path=fonts/,Weight=Regular]
+%\setmonofont{NotoSansMono.ttf}[Path=fonts/]
+
+%===============================================================
+% COLORS 
+\definecolor{primarycolor}{HTML}{264E73}
+\definecolor{secondarycolor}{HTML}{264E73}
+
+%===============================================================
+% BIBLIO
+\RequirePackage[style=authoryear, backend=biber, bibencoding=utf8,
+    defernumbers=true, maxnames=99, language=english, dashed=false
+]{biblatex}
+\date{}
+\addbibresource{eadh2026.bib}
+\hypersetup{
+    colorlinks, 
+    citecolor=secondarycolor, 
+    linkcolor=secondarycolor, 
+    urlcolor=secondarycolor,
+}
+
+%===============================================================
+% ORCID COMMAND
+\newcommand{\orcid}[1]{\footnotesize{{\orcidlink{#1}}}}
+
+%===============================================================
+% Title
+\makeatletter
+\renewcommand{\title}[1]{\renewcommand{\@title}{\textbf{\sffamily\color{\@titlecolor}#1}}}
+\newcommand{\@titlecolor}{primarycolor}
+\newcommand{\titlecolor}[1]{\renewcommand{\@titlecolor}{#1}}
+\makeatother
+
+%===============================================================
+% Authors and affiliations
+\renewcommand\Authfont{\small} 
+\renewcommand\Affilfont{\footnotesize} 
+\makeatletter
+\renewcommand\AB@affilsepx{~$\cdot$\,\protect\Affilfont }
+\makeatother
+
+%===============================================================
+% Section and subsection titles
+\titleformat*{\section}{\normalfont\large\sffamily\color{primarycolor}}
+\titleformat*{\subsection}{\normalfont\normalsize\sffamily\color{primarycolor}}
+
+%===============================================================
+% EADH logo
+\newcommand{\EADHtitlebar}{%
+  \begin{tikzpicture}[remember picture,overlay]
+    \node (eadhlogo) at ($(current page.north)+(0,-1.3cm)$)
+      {\includegraphics[height=1cm]{img/eadh_logo}}; 
+    \draw[gray!60, line width=2.2pt]
+      ($(current page.north west)+(0,-1.445cm)$) --
+      ($(eadhlogo.west)+(-.3cm,-.145)$);
+    \draw[gray!60, line width=2.2pt]
+      ($(eadhlogo.east)+(.3cm,-.145)$) --
+      ($(current page.north east)+(0,-1.445cm)$);
+  \end{tikzpicture}%
+}
+\apptocmd{\maketitle}{\EADHtitlebar}{}{}
+
+%===============================================================
+% Running head
+\makeatletter
+    \newcommand{\authorrunning}[1]{\def\@authorrunning{#1}}
+    \newcommand{\titlerunning}[1]{\def\@titlerunning{#1}}
+    \pagestyle{fancy}
+    \fancyhf{}
+    \fancyhead[LO]{\small\@titlerunning}
+    \fancyhead[RE]{\small\@authorrunning}
+    \fancyhead[LE]{\small\thepage}
+    \fancyhead[RO]{\small\thepage}
+    \cfoot{}
+\makeatother
+
+%===============================================================
+% Block quotes, verse
+\AtBeginEnvironment{quote}{\small}
+\AtBeginEnvironment{verse}{\small}
+
+%===============================================================
+% Link author's name in citation
+
+\DeclareCiteCommand{\cite}
+  {\usebibmacro{prenote}}
+  {\usebibmacro{citeindex}%
+   \printtext[bibhyperref]{\usebibmacro{cite}}}
+  {\multicitedelim}
+  {\usebibmacro{postnote}}
+
+\DeclareCiteCommand*{\cite}
+  {\usebibmacro{prenote}}
+  {\usebibmacro{citeindex}%
+   \printtext[bibhyperref]{\usebibmacro{citeyear}}}
+  {\multicitedelim}
+  {\usebibmacro{postnote}}
+
+\DeclareCiteCommand{\parencite}[\mkbibparens]
+  {\usebibmacro{prenote}}
+  {\usebibmacro{citeindex}%
+    \printtext[bibhyperref]{\usebibmacro{cite}}}
+  {\multicitedelim}
+  {\usebibmacro{postnote}}
+
+\DeclareCiteCommand*{\parencite}[\mkbibparens]
+  {\usebibmacro{prenote}}
+  {\usebibmacro{citeindex}%
+    \printtext[bibhyperref]{\usebibmacro{citeyear}}}
+  {\multicitedelim}
+  {\usebibmacro{postnote}}
+
+\DeclareCiteCommand{\footcite}[\mkbibfootnote]
+  {\usebibmacro{prenote}}
+  {\usebibmacro{citeindex}%
+  \printtext[bibhyperref]{ \usebibmacro{cite}}}
+  {\multicitedelim}
+  {\usebibmacro{postnote}}
+
+\DeclareCiteCommand{\footcitetext}[\mkbibfootnotetext]
+  {\usebibmacro{prenote}}
+  {\usebibmacro{citeindex}%
+   \printtext[bibhyperref]{\usebibmacro{cite}}}
+  {\multicitedelim}
+  {\usebibmacro{postnote}}
+
+\DeclareCiteCommand{\textcite}
+  {\boolfalse{cbx:parens}}
+  {\usebibmacro{citeindex}%
+   \printtext[bibhyperref]{\usebibmacro{textcite}}}
+  {\ifbool{cbx:parens}
+     {\bibcloseparen\global\boolfalse{cbx:parens}}
+     {}%
+   \multicitedelim}
+  {\usebibmacro{textcite:postnote}}

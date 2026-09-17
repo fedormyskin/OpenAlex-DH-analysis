@@ -1,0 +1,22 @@
+=== 16_resolve_references.R report ===
+Generated: 2026-06-15 12:03:49.130787
+Resolution mode this run:      doi
+References in:                 46013
+  ACCEPTED matches:            1948 (4.2%)
+    via OpenAlex DOI:          1948
+    via OpenAlex title:        0
+    via Crossref->DOI:         0
+  FOR REVIEW (low-confidence): 0  -> 16_reference_matches_review.csv
+  No match (genuine):          338
+  PENDING (not yet attempted): 43727
+
+Works with >=1 accepted reference:
+  783
+
+*** MODE 'doi' COMPLETE, but 43727 references are PENDING. ***
+  These need TITLE search. When OpenAlex's search endpoint is healthy, run:
+    Sys.setenv(RESOLVE_MODE='title'); source('R/16_resolve_references.R')
+  Do NOT run script 17 until PENDING reaches 0.
+
+CAVEAT: title-only matches are imprecise; review the review file before
+        treating its rows as real citations. DOI matches are reliable.

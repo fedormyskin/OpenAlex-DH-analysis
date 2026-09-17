@@ -1,0 +1,18 @@
+=== 18_conference_endogeneity.R report ===
+Generated: 2026-06-30 15:05:56.581757
+
+Conference works total:               7503
+Works entering endogeneity analysis:  1648 (22.0%)
+Conference citation records:          4520
+Distinct citing countries:            54
+Countries >= 100 citations:            12
+
+Overall endogeneity (any overlap):    41.7%
+Overall endogeneity (majority):       33.6%
+
+BIAS WARNING (report alongside results):
+  The analysed works are a SUBSET (full text + parseable refs + resolvable
+  cited works). This skews English-language / recent / well-formatted, which
+  cuts against the project's multilingual / Global-South aims. The journal
+  result in 05_country_endogeneity.csv is NOT subject to the same filter, so
+  any side-by-side comparison must foreground this coverage difference.

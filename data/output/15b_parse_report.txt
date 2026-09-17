@@ -1,0 +1,40 @@
+=== 15b_parse_references_anystyle.R report ===
+Generated: 2026-06-18 11:13:48.848577
+AnyStyle: anystyle version 1.6.0 (cli 1.5.0, data 1.3.0)
+txt blocks parsed:               1849
+Structured references produced:  20426
+  with a title:                  20399 (99.9%)
+  with a DOI:                    254 (1.2%)
+
+Script breakdown (Unicode script of the title — reliable, dependency-free):
+  # A tibble: 6 × 2
+    ref_script     n
+    <chr>      <int>
+  1 Latin      20351
+  2 <NA>          27
+  3 CJK           26
+  4 Other         10
+  5 Greek          7
+  6 Cyrillic       5
+
+cld3 language detection: ENABLED
+  # A tibble: 12 × 2
+     ref_lang_cld3     n
+     <chr>         <int>
+   1 en            12821
+   2 <NA>           4440
+   3 fr              553
+   4 de              492
+   5 es              186
+   6 it              180
+   7 la              173
+   8 nl              140
+   9 ca              106
+  10 af               85
+  11 lb               85
+  12 zu               81
+
+NOTE: non-English refs parse less reliably (AnyStyle is English-trained).
+      ref_script catches non-Latin scripts; ref_lang_cld3 (if present)
+      separates Latin-script languages but is noisy on short titles.
+      This CSV is the cached input for script 16 — commit it for reproducibility.

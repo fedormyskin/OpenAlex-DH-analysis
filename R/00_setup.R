@@ -22,10 +22,28 @@ renv::init(bare = TRUE)
 
 # Step 3: Install required packages
 renv::install(c(
+  # Core pipeline (scripts 01–03)
   "openalexR",
   "tidyverse",
   "httr2",
-  "jsonlite"
+  "jsonlite",
+  # Analysis (script 03)
+  "lme4",
+  "countrycode",
+  # Comparator analysis (scripts 04–05)
+  # (no extra packages — uses openalexR + tidyverse)
+  # Conference linkage + endogeneity (scripts 13–18)
+  "xml2",        # parse TEI/XML full text for references (script 15)
+  "stringdist",  # title/name similarity for reference matching (script 16)
+  "stringi",     # accent-stripping / transliteration (scripts 15–16)
+  "cld3",        # language detection on reference titles (script 15b)
+  # Visualization (script 06)
+  "igraph",
+  "ggraph",
+  "tidygraph",
+  "viridis",
+  "patchwork",
+  "scales"
 ))
 
 # Step 4: Snapshot — creates renv.lock with exact versions
@@ -37,4 +55,5 @@ cat("To reproduce this environment on another machine, run: renv::restore()\n")
 cat("\nNext steps:\n")
 cat("  1. Copy .Renviron.example to .Renviron and add your API key\n")
 cat("  2. Restart R\n")
-cat("  3. Run the scripts in R/ in order (01, 02, 03)\n")
+cat("  3. Run the scripts in R/ in order (01, 02, 03, ...)\n")
+cat("     Conference linkage/endogeneity: 13, then 15 -> 16 -> 17 -> 18\n")

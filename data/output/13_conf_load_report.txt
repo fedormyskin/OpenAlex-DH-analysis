@@ -1,0 +1,15 @@
+=== 13_load_conference_data.R coverage report ===
+Generated: 2026-06-30 14:45:41.50071
+
+Works (abstracts):                 8823
+Authorships:                       21592
+  with a resolved country (ISO2):  19858 (92.0%)
+Conferences:                       507
+  with a resolved host country:    495 (97.6%)
+
+Distinct internal author IDs:      10452
+Distinct (first,last) name pairs:  11327
+  -> ~this many OpenAlex /authors queries in script 15 (after dedup).
+
+NOTE: internal author IDs are abstract-scoped, NOT OpenAlex A-IDs.
+      Cross-dataset author identity is resolved probabilistically in 15-16.

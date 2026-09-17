@@ -1,0 +1,198 @@
+country_id,tgn_id,pref_name,iso2,needs_review
+1,http://vocab.getty.edu/tgn/7016845,Netherlands,NL,False
+2,http://vocab.getty.edu/tgn/1000070,France,FR,False
+4,http://vocab.getty.edu/tgn/7000084,Germany,DE,False
+5,http://vocab.getty.edu/tgn/1000062,Austria,AT,False
+6,http://vocab.getty.edu/tgn/7000490,Australia,AU,False
+8,http://vocab.getty.edu/tgn/1000069,Finland,FI,False
+9,http://vocab.getty.edu/tgn/7011731,Switzerland,CH,False
+10,http://vocab.getty.edu/tgn/1000066,Denmark,DK,False
+12,http://vocab.getty.edu/tgn/7006366,Poland,PL,False
+13,http://vocab.getty.edu/tgn/7005685,Canada,CA,False
+14,http://vocab.getty.edu/tgn/7000198,India,IN,False
+15,http://vocab.getty.edu/tgn/1000126,Lebanon,LB,False
+16,http://vocab.getty.edu/tgn/1000078,Ireland,IE,False
+17,http://vocab.getty.edu/tgn/1000120,Japan,JP,False
+18,http://vocab.getty.edu/tgn/1000074,Greece,GR,False
+19,http://vocab.getty.edu/tgn/1000091,Romania,RO,False
+20,http://vocab.getty.edu/tgn/1000119,Israel,IL,False
+21,http://vocab.getty.edu/tgn/1000095,Spain,ES,False
+22,http://vocab.getty.edu/tgn/1000111,China,CN,False
+23,http://vocab.getty.edu/tgn/7006669,Serbia,RS,False
+24,http://vocab.getty.edu/tgn/1000144,Turkey,TR,False
+25,http://vocab.getty.edu/tgn/7006413,Bulgaria,BG,False
+26,http://vocab.getty.edu/tgn/1000080,Italy,IT,False
+27,http://vocab.getty.edu/tgn/7003514,Luxembourg,LU,False
+28,http://vocab.getty.edu/tgn/1000063,Belgium,BE,False
+29,http://vocab.getty.edu/tgn/1001780,Czech Republic,CZ,False
+30,http://vocab.getty.edu/tgn/7006541,Latvia,LV,False
+31,http://vocab.getty.edu/tgn/7006278,Hungary,HU,False
+32,http://vocab.getty.edu/tgn/7006540,Estonia,EE,False
+33,http://vocab.getty.edu/tgn/1000047,Brazil,BR,False
+34,http://vocab.getty.edu/tgn/1000097,Sweden,SE,False
+35,http://vocab.getty.edu/tgn/1000088,Norway,NO,False
+37,http://vocab.getty.edu/tgn/1000189,Senegal,SN,False
+38,http://vocab.getty.edu/tgn/7005560,Mexico,MX,False
+40,http://vocab.getty.edu/tgn/7006670,Slovenia,SI,False
+41,http://vocab.getty.edu/tgn/7000299,South Korea,KR,False
+42,http://vocab.getty.edu/tgn/1000056,Peru,PE,False
+43,http://vocab.getty.edu/tgn/7029379,Mongolia,MN,False
+44,http://vocab.getty.edu/tgn/7000381,Singapore,SG,False
+45,http://vocab.getty.edu/tgn/7014786,Kazakhstan,KZ,False
+46,http://vocab.getty.edu/tgn/1000226,New Zealand,NZ,False
+47,http://vocab.getty.edu/tgn/7006660,Ukraine,UA,False
+48,http://vocab.getty.edu/tgn/1000058,Uruguay,UY,False
+49,http://vocab.getty.edu/tgn/1000142,Thailand,TH,False
+50,http://vocab.getty.edu/tgn/7006477,Argentina,AR,False
+51,http://vocab.getty.edu/tgn/7002435,Russia,RU,False
+52,http://vocab.getty.edu/tgn/1000077,Iceland,IS,False
+54,http://vocab.getty.edu/tgn/1000105,Bangladesh,BD,False
+55,http://vocab.getty.edu/tgn/1000090,Portugal,PT,False
+56,http://vocab.getty.edu/tgn/1000128,Malaysia,MY,False
+57,http://vocab.getty.edu/tgn/1000193,South Africa,ZA,False
+58,http://vocab.getty.edu/tgn/1000116,Indonesia,ID,False
+59,http://vocab.getty.edu/tgn/7005019,Macau,MO,False
+60,http://vocab.getty.edu/tgn/7000231,Iran,IR,False
+61,http://vocab.getty.edu/tgn/7006663,Croatia,HR,False
+62,http://vocab.getty.edu/tgn/7006542,Lithuania,LT,False
+64,http://vocab.getty.edu/tgn/7012149,United States,US,False
+65,http://vocab.getty.edu/tgn/7008591,United Kingdom,GB,False
+66,http://vocab.getty.edu/tgn/1000050,Colombia,CO,False
+67,http://vocab.getty.edu/tgn/7004624,Cuba,CU,False
+68,http://vocab.getty.edu/tgn/1000141,Taiwan,TW,False
+69,http://vocab.getty.edu/tgn/1000112,Cyprus,CY,False
+72,http://vocab.getty.edu/tgn/1000198,Namibia,NA,False
+73,http://vocab.getty.edu/tgn/1000181,Niger,NE,False
+74,http://vocab.getty.edu/tgn/7006667,The former Yugoslav Republic of Macedonia,MK,False
+75,http://vocab.getty.edu/tgn/1000182,Nigeria,NG,False
+76,http://vocab.getty.edu/tgn/7005729,Malta,MT,False
+77,http://vocab.getty.edu/tgn/7006656,Moldova,MD,False
+78,http://vocab.getty.edu/tgn/7005758,Monaco,MC,False
+79,http://vocab.getty.edu/tgn/1000108,Myanmar,MM,False
+80,http://vocab.getty.edu/tgn/1000155,Central African Republic,CF,False
+81,http://vocab.getty.edu/tgn/1000132,Nepal,NP,False
+82,http://vocab.getty.edu/tgn/7006661,Uzbekistan,UZ,False
+83,http://vocab.getty.edu/tgn/7001682,Rwanda,RW,False
+84,http://vocab.getty.edu/tgn/1000133,Pakistan,PK,False
+85,http://vocab.getty.edu/tgn/1000188,Sao Tome and Principe,ST,False
+86,http://vocab.getty.edu/tgn/1000190,Seychelles,SC,False
+87,http://vocab.getty.edu/tgn/1000191,Sierra Leone,SL,False
+88,http://vocab.getty.edu/tgn/1000135,Philippines,PH,False
+89,http://vocab.getty.edu/tgn/1000192,Somalia,SO,False
+90,http://vocab.getty.edu/tgn/1000136,Qatar,QA,False
+91,http://vocab.getty.edu/tgn/7441551,South Sudan,SS,False
+92,http://vocab.getty.edu/tgn/7001725,Swaziland,SZ,False
+93,http://vocab.getty.edu/tgn/1000203,Tanzania,TZ,False
+94,http://vocab.getty.edu/tgn/1000156,Chad,TD,False
+95,http://vocab.getty.edu/tgn/7016577,Togo,TG,False
+96,http://vocab.getty.edu/tgn/1000205,Tunisia,TN,False
+97,http://vocab.getty.edu/tgn/1000206,Uganda,UG,False
+98,http://vocab.getty.edu/tgn/7006653,Georgia,GE,False
+99,http://vocab.getty.edu/tgn/1000125,Laos,LA,False
+100,http://vocab.getty.edu/tgn/1000209,Zambia,ZM,False
+101,http://vocab.getty.edu/tgn/1000185,Zimbabwe,ZW,False
+102,http://vocab.getty.edu/tgn/1000110,Sri Lanka,LK,False
+103,http://vocab.getty.edu/tgn/7005699,San Marino,SM,False
+104,http://vocab.getty.edu/tgn/7001168,Holy See,VA,False
+105,http://vocab.getty.edu/tgn/1000140,Syria,SY,False
+106,http://vocab.getty.edu/tgn/7006417,Albania,AL,False
+107,http://vocab.getty.edu/tgn/7011765,Slovakia,SK,False
+108,http://vocab.getty.edu/tgn/7003703,Timor-Leste,TL,False
+109,http://vocab.getty.edu/tgn/7014835,Tajikistan,TJ,False
+110,http://vocab.getty.edu/tgn/7006659,Turkmenistan,TM,False
+111,http://vocab.getty.edu/tgn/1000131,Oman,OM,False
+112,http://vocab.getty.edu/tgn/1000145,Viet Nam,VN,False
+113,http://vocab.getty.edu/tgn/7669106,Navajo Nation,,True
+114,http://vocab.getty.edu/tgn/7005668,Palau,PW,False
+115,http://vocab.getty.edu/tgn/7016612,Afghanistan,AF,False
+116,http://vocab.getty.edu/tgn/1000009,Antigua and Barbuda,AG,False
+117,http://vocab.getty.edu/tgn/1000220,Federated States of Micronesia,FM,False
+118,http://vocab.getty.edu/tgn/7000493,Fiji,FJ,False
+119,http://vocab.getty.edu/tgn/7016770,Bahrain,BH,False
+120,http://vocab.getty.edu/tgn/7016752,Algeria,DZ,False
+121,http://vocab.getty.edu/tgn/1000143,United Arab Emirates,AE,False
+122,http://vocab.getty.edu/tgn/1000061,Andorra,AD,False
+123,http://vocab.getty.edu/tgn/7005332,Bahamas,BS,False
+124,http://vocab.getty.edu/tgn/1000118,Iraq,IQ,False
+125,http://vocab.getty.edu/tgn/7004770,Barbados,BB,False
+126,http://vocab.getty.edu/tgn/1000179,Morocco,MA,False
+127,http://vocab.getty.edu/tgn/1000217,Kiribati,KI,False
+128,http://vocab.getty.edu/tgn/1000124,Kuwait,KW,False
+129,http://vocab.getty.edu/tgn/1000149,Angola,AO,False
+130,http://vocab.getty.edu/tgn/7005346,Belize,BZ,False
+131,http://vocab.getty.edu/tgn/1000121,Jordan,JO,False
+132,http://vocab.getty.edu/tgn/7016730,Marshall Islands,MH,False
+133,http://vocab.getty.edu/tgn/7000261,Yemen,YE,False
+134,http://vocab.getty.edu/tgn/1000201,Sudan,SD,False
+135,http://vocab.getty.edu/tgn/7006158,Nauru,NR,False
+136,http://vocab.getty.edu/tgn/1000046,Bolivia,BO,False
+137,http://vocab.getty.edu/tgn/7006160,Papua New Guinea,PG,False
+138,http://vocab.getty.edu/tgn/1000049,Chile,CL,False
+139,http://vocab.getty.edu/tgn/1000239,Samoa,WS,False
+140,http://vocab.getty.edu/tgn/1000233,Solomon Islands,SB,False
+141,http://vocab.getty.edu/tgn/7000529,Tonga,TO,False
+142,http://vocab.getty.edu/tgn/1000236,Tuvalu,TV,False
+143,http://vocab.getty.edu/tgn/1000137,Saudi Arabia,SA,False
+144,http://vocab.getty.edu/tgn/1000225,Vanuatu,VU,False
+145,http://vocab.getty.edu/tgn/1000051,Ecuador,EC,False
+146,http://vocab.getty.edu/tgn/7006646,Azerbaijan,AZ,False
+147,http://vocab.getty.edu/tgn/7006657,Belarus,BY,False
+148,http://vocab.getty.edu/tgn/1000160,Benin,BJ,False
+149,http://vocab.getty.edu/tgn/7005364,Costa Rica,CR,False
+150,http://vocab.getty.edu/tgn/7006664,Bosnia and Herzegovina,BA,False
+151,http://vocab.getty.edu/tgn/1000150,Botswana,BW,False
+152,http://vocab.getty.edu/tgn/1000054,Guyana,GY,False
+153,http://vocab.getty.edu/tgn/7004641,Dominica,DM,False
+154,http://vocab.getty.edu/tgn/7005441,El Salvador,SV,False
+155,http://vocab.getty.edu/tgn/1000208,Burkina Faso,BF,False
+156,http://vocab.getty.edu/tgn/7001630,Burundi,BI,False
+157,http://vocab.getty.edu/tgn/7001632,Cape Verde,CV,False
+158,http://vocab.getty.edu/tgn/1000153,Cameroon,CM,False
+159,http://vocab.getty.edu/tgn/1000107,Brunei Darussalam,BN,False
+160,http://vocab.getty.edu/tgn/1000157,Comoros,KM,False
+161,http://vocab.getty.edu/tgn/1000158,Congo (Republic of),CG,False
+162,http://vocab.getty.edu/tgn/7004771,Grenada,GD,False
+163,http://vocab.getty.edu/tgn/1000159,Democratic Republic of the Congo,CD,False
+164,http://vocab.getty.edu/tgn/7005493,Guatemala,GT,False
+165,http://vocab.getty.edu/tgn/1000168,Côte d'Ivoire,CI,False
+166,http://vocab.getty.edu/tgn/7005502,Haiti,HT,False
+167,http://vocab.getty.edu/tgn/7015657,Montenegro,ME,False
+168,http://vocab.getty.edu/tgn/1000122,North Korea,KP,False
+169,http://vocab.getty.edu/tgn/7005554,Honduras,HN,False
+170,http://vocab.getty.edu/tgn/7005556,Jamaica,JM,False
+171,http://vocab.getty.edu/tgn/1000055,Paraguay,PY,False
+172,http://vocab.getty.edu/tgn/7000331,Maldives,MV,False
+173,http://vocab.getty.edu/tgn/7014831,Bhutan,BT,False
+174,http://vocab.getty.edu/tgn/1000164,Gabon,GA,False
+175,http://vocab.getty.edu/tgn/1000165,The Gambia,GM,False
+176,http://vocab.getty.edu/tgn/1000166,Ghana,GH,False
+177,http://vocab.getty.edu/tgn/7015386,Suriname,SR,False
+178,http://vocab.getty.edu/tgn/1000161,Equatorial Guinea,GQ,False
+179,http://vocab.getty.edu/tgn/1000183,Guinea-Bissau,GW,False
+180,http://vocab.getty.edu/tgn/1000167,Guinea,GN,False
+181,http://vocab.getty.edu/tgn/7005562,Nicaragua,NI,False
+182,http://vocab.getty.edu/tgn/7001658,Eritrea,ER,False
+183,http://vocab.getty.edu/tgn/7006651,Armenia,AM,False
+184,http://vocab.getty.edu/tgn/7000489,Ethiopia,ET,False
+185,http://vocab.getty.edu/tgn/1000059,Venezuela,VE,False
+186,http://vocab.getty.edu/tgn/7001644,Djibouti,DJ,False
+187,http://vocab.getty.edu/tgn/7005565,Panama,PA,False
+188,http://vocab.getty.edu/tgn/1000169,Kenya,KE,False
+189,http://vocab.getty.edu/tgn/7005388,Dominican Republic,DO,False
+190,http://vocab.getty.edu/tgn/1000109,Cambodia,KH,False
+191,http://vocab.getty.edu/tgn/7001660,Lesotho,LS,False
+192,http://vocab.getty.edu/tgn/1000171,Liberia,LR,False
+193,http://vocab.getty.edu/tgn/1000172,Libya,LY,False
+194,http://vocab.getty.edu/tgn/7005605,Saint Kitts and Nevis,KN,False
+195,http://vocab.getty.edu/tgn/7004772,Saint Lucia,LC,False
+196,http://vocab.getty.edu/tgn/7004773,Saint Vincent and the Grenadines,VC,False
+197,http://vocab.getty.edu/tgn/1000173,Madagascar,MG,False
+198,http://vocab.getty.edu/tgn/7000726,Malawi,MW,False
+199,http://vocab.getty.edu/tgn/1000175,Mali,ML,False
+200,http://vocab.getty.edu/tgn/7006655,Kyrgyzstan,KG,False
+201,http://vocab.getty.edu/tgn/1000177,Mauritius,MU,False
+202,http://vocab.getty.edu/tgn/7004787,Trinidad and Tobago,TT,False
+203,http://vocab.getty.edu/tgn/7003515,Liechtenstein,LI,False
+204,http://vocab.getty.edu/tgn/7016833,Egypt,EG,False
+205,http://vocab.getty.edu/tgn/1000180,Mozambique,MZ,False
+206,http://vocab.getty.edu/tgn/1000176,Mauritania,MR,False

@@ -1,0 +1,16 @@
+=== 15_extract_conference_references.R report ===
+Generated: 2026-06-10 22:16:39.102993
+Full-text works processed:       6050
+txt works with a reference BLOCK: 1849 (-> AnyStyle, script 15b)
+Works yielding >=1 reference:    4129
+Total references extracted:      56263
+  with a DOI:                    2383 (4.2%)
+
+By extraction quality:
+  txt_line: 33065
+  xml_bibl: 21972
+  xml_biblstruct: 966
+  xml_doi_only: 260
+
+NOTE: txt_line references are raw strings (noisier); xml_biblstruct and
+      any *_doi references are the most reliable. Resolution happens in 16.

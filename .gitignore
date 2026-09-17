@@ -1,26 +1,100 @@
-# Data files (large, reproducible from scripts)
-data/*
-!data/.gitkeep
-!data/output/
+# ---------------------------------------------------------------------------
+# OpenAlex-DH-analysis — .gitignore
+#
+# Principle: track everything needed to REPRODUCE the analysis (code, renv.lock,
+# small result tables). Exclude only what is (a) regenerable by a script in R/,
+# (b) machine-local, or (c) too large for git to handle sanely.
+# ---------------------------------------------------------------------------
 
-# R
+# --- R session cruft -------------------------------------------------------
 .Rhistory
-.Rdata
+.Rapp.history
 .RData
 .Ruserdata
 .Rproj.user/
-*.Rproj
+*.Rproj.user
+.httr-oauth
+*_cache/
+*.utf8.md
+*.knit.md
+
+# --- renv ------------------------------------------------------------------
+# NOTE: renv.lock is deliberately NOT ignored. It pins package versions and is
+# the single most important file for reproducibility here. Commit it, and
+# re-commit it whenever you renv::snapshot().
 renv/library/
-renv/staging/
+renv/local/
+renv/cellar/
+renv/lock/
 renv/python/
 renv/sandbox/
+renv/staging/
 
-# Environment (contains API key)
-.Renviron
-
-# OS
+# --- editors / OS ----------------------------------------------------------
 .DS_Store
+.vscode/
+.idea/
+.posit/
 Thumbs.db
 
-# Output (optional: uncomment to track final outputs)
-# output/
+# --- Claude Code -----------------------------------------------------------
+# Worktrees are full checkouts — never commit them. CLAUDE.md at repo root
+# stays tracked (it is project documentation and useful to collaborators).
+.claude/worktrees/
+.claude/plans/
+.claude/todos/
+.claude/shell-snapshots/
+.claude/statsig/
+.claude/settings.local.json
+CLAUDE.md
+
+# --- large derived data ----------------------------------------------------
+# Regenerable via the numbered scripts in R/. Excluded because git handles
+# large binaries badly and GitHub rejects files over 100 MB.
+data/raw/
+data/snapshot/
+data/cache/
+**/cache/
+*.parquet
+*.duckdb
+*.duckdb.wal
+*.sqlite
+*.rds
+*.gz
+*.bz2
+*.zip
+*.tar
+
+# Index of DH Conferences extract (CMU, ~70 MB). Not redistributed here — see
+# README "Conference pipeline" for the download; script 13 reads it from here.
+data/dh_conferences_data/
+
+# Journal-corpus intermediates regenerable from data/02_dh_corpus_full.rds
+data/02_dh_corpus.csv
+data/03_referenced_work_ids.txt
+data/04_cited_works_checkpoint.rds
+
+# The two retrieved OpenAlex inputs script 03 needs are tracked on purpose:
+# OpenAlex changes daily, so re-running 01-02 would not reproduce the paper's
+# numbers exactly. Retrieval date is in data/00_retrieval_date.txt.
+!data/02_dh_corpus_full.rds
+
+# --- paper / talk build artefacts ------------------------------------------
+eadh2026/*.aux
+eadh2026/*.bbl
+eadh2026/*.bcf
+eadh2026/*.blg
+eadh2026/*.log
+eadh2026/*.out
+eadh2026/*.run.xml
+eadh2026/*.synctex.gz
+eadh2026/eadh2026_talk_preview.pdf
+eadh2026/slides/unpacked/
+eadh2026/slides/render/
+eadh2026/slides/notes_template.xml
+
+# --- credentials -----------------------------------------------------------
+.Renviron
+.env
+*.pem
+*_secret*
